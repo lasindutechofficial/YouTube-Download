@@ -29,7 +29,7 @@ async def start(client, message):
        await Jebot.send_message(
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm YouTube Downloder Bot🧰
-I can download video or audio from Youtube. Made by @Damantha_Jasinghe 🇱🇰
+I can download video or audio from Youtube. Made by @Lasindusenash 🇱🇰
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
@@ -73,7 +73,7 @@ async def about(client, message):
         await Jebot.send_message(
                chat_id=message.chat.id,
                text="""<b>About YouTube Downloder Bot🧰!</b>
-<b>♞ Developer:</b> <a href="https://t.me/Damantha_Jasinghe">Damantha 🇱🇰</a>
+<b>♞ Developer:</b> <a href="https://t.me/Lasindu Senash">Lasindu 🇱🇰</a>
 <b>♞ Support:</b> <a href="https://t.me/SLTBrecLand">BrecLand🇱🇰 Group</a>
 <b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 <b>~ @@SLTBrecLand</b>""",
